@@ -69,6 +69,8 @@
 					<descriptorRefs>
 						<descriptorRef>jar-with-dependencies</descriptorRef>
 					</descriptorRefs>
+					<!-- no separate jar with jar-with-dependencies suffix -->
+					<appendAssemblyId>false</appendAssemblyId>
 				</configuration>
 			</plugin>
 			<!-- Put dependencies in separate "lib" folder -->
