@@ -33,7 +33,18 @@
 	</dependencies>
 
 	<build>
-	<!-- <sourceDirectory>src</sourceDirectory> -->
+		<!-- change default src and resources folder -->
+		<!--
+		<sourceDirectory>src</sourceDirectory>
+		<resources>
+			<resource>
+				<directory>resources</directory>
+				<excludes>
+					<exclude>.gitkeep</exclude>
+				</excludes>
+			</resource>
+		</resources>
+		-->
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
